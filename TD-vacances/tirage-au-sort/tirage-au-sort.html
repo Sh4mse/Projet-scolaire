@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../CSS/tirage-au-sort.css">
+    <title>Tirage au sort</title>
+</head>
+
+<body>
+    <main><button id="retour-index">Retour au menu</button></main>
+    <fieldset id="essaiAffichage">
+        <legend id="legendTaille">TIRAGE AU SORT</legend>
+        <button type="button" id="button">Tirage au sort</button>
+        <p id="son">(mettez le son svp)</p>
+        <p id="nom_pirate"></p>
+
+        <img src="" alt="" id="imgpirate">
+        <!-- Balise audio pour jouer le son -->
+        <audio id="audiopirate" src="" preload="auto"></audio>
+    </fieldset>
+    <script src="tirage-au-sort.js"></script>
+   
+    <script>
+        document.getElementById("retour-index").addEventListener("click", () => {
+            window.location.href = "index.html";
+        });
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Palindrome</title>
+    <link rel="stylesheet" href="../CSS/palindrome.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div id="boutton">
+                <label for="motSaisi">Mot à vérifier</label>
+                <input type="text" name="mot-saisi" id="id-mot-saisi">
+                <button id="button">Vérification</button>
+                <div id="cube-rouge">
+                    <div id="cube-tournant"></div>
+                    <div class="cube-tournant cube-1"></div>
+                    <div class="cube-tournant cube-2"></div>
+                    <div class="cube-tournant cube-3"></div>
+                    <div class="cube-tournant cube-4"></div>
+
+                </div>
+        </div>
+        <p id="resultat">
+        </p>
+        <button id="retour-index">Retour au menu</button>
+    </main>
+    <footer></footer>
+    <script src="palindromes.js"></script>
+    <script>
+        document.getElementById("retour-index").addEventListener("click", () => {
+            window.location.href = "index.html"; 
+        });
+    </script>
+    
+</body>
+
+</html>
